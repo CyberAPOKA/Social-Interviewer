@@ -1,0 +1,147 @@
+body,html{
+    width: '100%';
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 20px;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.logo{
+    text-align: right;
+}
+
+
+.logo img{
+    width: 130px;
+    height: 70px;
+}
+
+
+.resultado{ /* É usado para alguma coisa?*/
+    border: 1px solid;
+    width: 15%;
+    margin-top: 50px;
+}
+
+/* #formulario{
+    width: 30%;
+    height: 25%;
+    
+} */
+
+/* .mx-auto{
+    padding: 60px 0px 0px 0px;
+} */
+
+
+
+.rodape{
+    font-size:1.5rem;
+    color: rgb(121, 119, 119);
+    
+}
+.footer{
+    font-size: 1.5rem;
+    color: rgb(121, 119, 119);
+    position:absolute;
+    bottom:0;
+    width:98%;
+    }
+
+
+@media(max-width: 769px){
+
+    .header {
+        position: right;
+    }
+} 
+
+@media(min-width: 641px) and (max-width:1040px){
+
+    .tituloMobile {
+        width: 100% !important;
+        padding-bottom: 25px !important;
+        text-align: center;
+    }
+
+    .logout {
+        width: 100% !important;
+        text-align: center;
+        margin-left: 0;
+    }
+
+    .navMobile {
+        flex-wrap: wrap !important;
+        margin-bottom: 0px;
+    }
+
+    .tabelaResultado{
+        width: 50% !important;
+
+    }
+
+
+}
+
+@media(max-width: 640px){
+
+    .tituloMobile {
+        width: 100% !important;
+        padding-bottom: 25px !important;
+        text-align: center;
+    }
+
+    .navMobile {
+        flex-wrap: wrap !important;
+        margin-bottom: 0px;
+    }
+
+    .tabelaResultado{
+        width: 80% !important;
+
+    }
+
+
+
+}
+
+
+@media(max-width: 360px){
+
+    .logo {
+        text-align: left !important;
+    }
+
+    .brasao{
+        width: 295px;
+        height: 32px;
+
+    }
+    .logo img{
+        width: 86px;
+        height: 48px;
+
+    }
+    .rodape{
+        font-size: 0.6rem;
+    }
+
+    .tabelaResultado{
+        width: 100% !important;
+
+    }
+    
+}
+
+.table>tbody>tr>td, .table>tbody>tr>th, .table>tfoot>tr>td, .table>tfoot>tr>th, .table>thead>tr>td, .table>thead>tr>th {
+    
+    border-style: none !important;
+    }
+
